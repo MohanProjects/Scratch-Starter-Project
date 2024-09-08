@@ -1,3 +1,4 @@
+//ADD Characters
 import { SET_ACTIVE_CHARACTER, ADD_CHARACTER, SET_ANGLE } from "./actionTypes";
 
 const initialState = {
