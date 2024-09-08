@@ -52,7 +52,6 @@ const mapStateToProps = (state) => {
     character: state.character,
   };
 };
-
 // mapping function to component
 const mapDispatchToProps = (dispatch) => {
   return {

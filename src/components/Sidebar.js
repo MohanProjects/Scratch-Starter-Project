@@ -3,9 +3,7 @@ import { Draggable, Droppable } from "react-beautiful-dnd";
 import { getComponent } from "./getComponents";
 import {
   motionComponents,
-  looksComponents,
   controlComponents,
-  eventsComponents,
 } from "./SidebarConstants";
 
 export default function Sidebar() {
@@ -48,7 +46,7 @@ export default function Sidebar() {
         )}
       </Droppable>
 
-      {/* Looks */}
+      {/* Looks 
       <div className="font-bold"> {"Looks"} </div>
       <Droppable droppableId="sideArea-looks" type="COMPONENTS">
         {(provided) => (
@@ -80,7 +78,7 @@ export default function Sidebar() {
             {provided.placeholder}
           </ul>
         )}
-      </Droppable>
+      </Droppable> */}
 
       {/* Control */}
       <div className="font-bold"> {"Control"} </div>
@@ -116,7 +114,7 @@ export default function Sidebar() {
         )}
       </Droppable>
 
-      {/* Events */}
+      {/* Events 
       <div className="font-bold"> {"Events"} </div>
       <Droppable droppableId="sideArea-motion" type="COMPONENTS">
         {(provided) => (
@@ -148,7 +146,7 @@ export default function Sidebar() {
             {provided.placeholder}
           </ul>
         )}
-      </Droppable>
+      </Droppable> */}
     </div>
   );
 }

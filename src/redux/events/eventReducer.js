@@ -1,8 +1,8 @@
-import { SET_REPEAT, SET_WAIT } from "./eventTypes";
+import { SET_REPEAT } from "./eventTypes";
 
 const initialState = {
   repeat: {},
-  wait: {},
+ // wait: {},
 };
 
 export const eventReducer = (state = initialState, action) => {
@@ -13,11 +13,11 @@ export const eventReducer = (state = initialState, action) => {
         repeat: action.value,
       };
 
-    case SET_WAIT:
+  { /*case SET_WAIT:
       return {
         ...state,
         wait: action.value,
-      };
+      }; */ }
     default:
       return state;
   }
